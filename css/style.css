@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.header{
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000000e5;
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    
+    
+}
+
+.fixed-container{
+    padding-top: 50px;
+    padding: 0 20px;
+    max-width: 1000;
+    margin: 0 auto;
+}
+
+.logo-text-block{
+    float: right;
+    padding-left: 20px;
+}
+
+.logo-text{
+    color: #28b8f1;
+    font-size: 24px;
+    font-weight: 700
+    
+}
+
+.menu-container{
+    
+    display: flex;  
+    justify-content: space-between;
+    
+}
+
+.menu{
+    display: flex;
+    padding-top: 80px;
+    
+}
+
+
+nav ul li{
+    list-style-type: none;
+
+}
+
+.menu-item{
+    display: table;
+    list-style-type: none;
+    margin-right: 20px;
+    font-weight: 500;   
+    
+}
+
+
+nav ul li a{
+color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 45, 129, 0.945)
+    }
+
+.center-block{
+    max-width: 1000px;
+    padding: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1{
+    color: #e44f31;
+}
+
+.center-pic1{
+    float: left;
+    margin-right: 10px;
+}
+
+.center-pic2{
+    float: right;
+    margin-left: 10px;
+}
+
+.center-pic3{
+    padding-top: 60px;
+    text-align: center;
+}
+
+p a{
+    color: #28b8f1;
+}
+
+p a:hover{
+  background: #28b8f159;
+}
+
+
+
+.footer{
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid powderblue;
+    margin-top: 100px;
+    background-color: #28b8f1;
+}
+
+.footer-text{
+    font-size: 12px;
+    text-align: center;  
+    color: white; 
+}
+
